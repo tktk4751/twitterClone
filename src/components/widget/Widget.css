@@ -1,0 +1,42 @@
+.wirget {
+  flex: 0.35;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.widget_input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.widget_input > input {
+  border: none;
+  background-color: var(--twitter-background);
+}
+
+.widget_searchIcon {
+  color: gray;
+}
+
+.widget_widgetContainer {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding-top: 5px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.widget_widgetContainer > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.widget_twitterShare {
+  padding-top: 10px;
+}
